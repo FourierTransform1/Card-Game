@@ -1,0 +1,27 @@
+simple card game. The game is a single player game and the user plays against the computer.
+
+
+
+1) Standard 52-card deck.
+2) Cards have rank and suite.
+3) shuffle and randomly pick two cards and switches their places continuously.
+4) Choose the number of cards to draw
+5) Users score is sum of the n cards drawn
+6) Computer's score is the sum of the next n cards
+7) Higher number wins
+
+
+
+2)CreateS an array of cards that can hold 52 cards.
+3)FillS the array with one of each unique card (one two of Clubs, one three of Clubs and so on).
+4)Shuffles the deck using a loop that iterates 1000 times and that each iteration randomly picks two cards in the array and switches their place.
+5)Output a message asking the user how many cards to draw and then continues to read the response from the keyboard. Stores the read value in a local variable called count.
+6)The users score is the sum of the first count cards from the array.
+7)The computers score is the sum of the next count cards from the array.
+8)The winner is the player with the lowest score.
+9)Print a message to the screen that includes the following information:
+ - what cards the user drew,
+ - what cards the computer drew,
+ - the users score,
+ - the computers score and
+ - who the winner is.
